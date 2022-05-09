@@ -45,7 +45,7 @@ madrid-recicla # This repository.
 ├── docker-compose.yml
 ```
 
-> Not all the files and directories are shwon in the previous structure. 
+> Not all the files and directories are shown in the previous structure. 
 > 
 > `.env` files are just illustrative and are not and should never be pushed to the repositories.
 
