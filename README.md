@@ -30,7 +30,7 @@ Madrid Recicla Development Template can be thought as a workspace for developing
 
 A non-exhaustive folder structure is as follows:
 
-```sh
+```yaml
 madrid-recicla # This repository.
 ├── db # Madrid Recicla Database. Part of this repository.
 │   ├── .env # Specific environment variables.
@@ -168,17 +168,17 @@ ALLOWED_ORIGINS=${WEB_URL},${LIVE_SERVER_URL},${SWAGGER_UI_EXT_URL},${SWAGGER_UI
 
 Once you have cloned the repositories and provided the necesary `.env` files, you can build and deploy the application to local Docker containers. To do so, simply run the following commands:
 
-```<sh
+```sh
 % docker compose build
 ```
 
-```<sh
+```sh
 % docker compose up
 ```
 
 You should have Docker containers running and organized in a bundle similar to this structure:
 
-```sh
+```yaml
 madrid-recicla # Enclosing folder
 ├── db # Madrid Recicla Database container.
 ├── server # Madrid Recicla Server container.
@@ -194,7 +194,7 @@ madrid-recicla # Enclosing folder
 [![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/)
 
 <!-- Links -->
-[Madrid Recicla Database]: <https://github.com/martinezcarlos/madrid-recicla-dev-template/db/README.md>
+[Madrid Recicla Database]: </db/README.md>
 [Madrid Recicla Server]: <https://github.com/martinezcarlos/madrid-recicla-server>
 [Madrid Recicla Web]: <https://github.com/martinezcarlos/madrid-recicla-web>
 [Madrid Recicla Development Template]: <https://github.com/martinezcarlos/madrid-recicla-dev-template>

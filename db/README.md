@@ -20,18 +20,17 @@
 
 Madrid Recicla Database uses a set of environment variables that need to be setup before running the application. To do so, create a file called `.env` in the `db` directory as follows:
 
-```sh
+```yaml
 madrid-recicla
 ├── db # Madrid Recicla Database.
 │   ├── entrypoint
 │   ├── .env # Specific environment variables.
 │   ├── README.md
-
 ```
 
 Provide the `.env` file with proper values for the following keys:
 
-```sh
+```properties
 MONGO_INITDB_ROOT_USERNAME=${DATABASE_ROOT_USERNAME}
 MONGO_INITDB_ROOT_PASSWORD=${DATABASE_ROOT_PASSWORD}
 MONGO_INITDB_DATABASE=${DATABASE_NAME}
@@ -43,7 +42,7 @@ SERVER_DB_PASSWORD=${SERVER_DB_PASSWORD} # Madrid Recicla Server password
 
 You can use any MongoDB client to access the database. For a local connection, the format is:
 
-```sh
+```
 mongodb://<username>:<password>@localhost:<port>/?authMechanism=SCRAM-SHA-1&authSource=<database>
 ```
 
@@ -54,7 +53,7 @@ mongodb://<username>:<password>@localhost:<port>/?authMechanism=SCRAM-SHA-1&auth
 [![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/)
 
 <!-- Links -->
-[Madrid Recicla Database]: <https://github.com/martinezcarlos/madrid-recicla-dev-template/db/README.md>
+[Madrid Recicla Database]: <README.md>
 [Madrid Recicla Server]: <https://github.com/martinezcarlos/madrid-recicla-server>
 [Madrid Recicla Web]: <https://github.com/martinezcarlos/madrid-recicla-web>
 [Madrid Recicla Development Template]: <https://github.com/martinezcarlos/madrid-recicla-dev-template>
